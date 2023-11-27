@@ -1,0 +1,37 @@
+.image {
+    background-image: url('../pictures/ss.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: left;
+    flex: 1;
+
+}
+
+.rightcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    flex: 1;
+}
+
+.divide {
+    display: flex;
+    flex-direction: row;
+}
+
+.pcard {
+    background-color: #3B6064;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1em;
+    padding: 1.5em;
+    width: 600px;
+    height: 130px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

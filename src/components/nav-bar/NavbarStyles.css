@@ -1,0 +1,67 @@
+/* NavbarStyles.css */
+
+nav {
+  display: flex;
+  background-color: white; /* Set the initial background color to be transparent */
+  position: fixed;
+  width: 100%;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect for background color */
+  z-index: 1000;
+}
+
+#navbar2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-left: 430px;
+}
+
+
+
+#navbar2 ul {
+  margin-left: 80px;
+}
+
+#navbar2 li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #55828B;
+  font-weight: bold;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 14px 16px;
+  margin-right: 40px;
+}
+
+
+
+#navbar2 li a:hover,
+#navbar2 li button:hover {
+  color: black;
+}
+
+.logoimage {
+  width: 130px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+/* Media Query for Tablets and Smaller Screens */
+@media screen and (max-width: 768px) {
+  #navbar2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar2 li {
+    margin-bottom: 10px;
+  }
+
+  .logoimage {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

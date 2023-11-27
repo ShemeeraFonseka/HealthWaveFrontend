@@ -1,0 +1,12 @@
+.container-form{
+    border: 1px solid #55828B; /* You can adjust the border style as needed */
+  padding: 20px; /* Add padding for better visual appearance */
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+  margin: 20px; /* Optional: Add margin for spacing */
+  align-items: center;
+  text-align: left;
+  width: 500px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+
+}

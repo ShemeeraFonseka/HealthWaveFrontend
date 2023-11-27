@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.regform{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-top: 40px;
+    background-color: white;
+
+
+}
+
+.form-container {
+    display: flex;
+background-color: white;
+  }
+  
+  .form-section {
+    margin: 0 80px; /* Adjust margin as needed to separate the sections */
+
+  }
+
+.custom-checkbox{
+    width: 45px;
+  height: 45px;
+  margin-right: 15px;
+}
+
+
+.actions {
+    display: flex;
+    flex-direction: row;
+  }

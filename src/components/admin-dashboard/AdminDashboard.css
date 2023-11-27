@@ -1,0 +1,52 @@
+.container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #060b26;
+
+}
+
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #060b26;
+}
+
+
+.card {
+  background-color: #0EB4B2;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1em;
+  padding: 1.5em;
+  width: 100px;
+  height: 130px;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.count {
+  background-color: #87BBA2;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1em;
+  padding: 1.5em;
+  width: 400px;
+  height: 130px;
+  cursor: pointer;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

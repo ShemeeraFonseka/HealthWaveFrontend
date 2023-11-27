@@ -1,0 +1,59 @@
+.AppFooter {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #0EB4B2;
+}
+
+.last {
+    flex: 1;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+
+.left {
+    flex: 1;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.right {
+    flex: 1;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.middle {
+    flex: 1;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+p {
+    font-size: 12px;
+}
+
+.unorderlist {
+    list-style: none;
+    font-size: 12px;
+}
+
+.youtube {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.facebook {
+    margin-top: 20px;
+    margin-right: 20px;
+}
